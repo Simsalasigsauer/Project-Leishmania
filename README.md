@@ -40,10 +40,14 @@ The classification model identified **Temperature Seasonality (`bio_4`)** and **
 ![Feature Importance](results/importance_Classification.png)
 
 ### 2. Future Projection (SSP3-7.0)
-The projection for 2041–2060 reveals a complex redistribution of disease risk:
-* **Decline in Central Brazil:** Regions like Mato Grosso may see a decrease in cases as temperatures exceed the physiological limit of the sandfly and conditions become too arid.
-* **Increase in the South & Coast:** Previously cooler regions are warming up, creating new suitable habitats for the vector.
-* **Amazon Region:** Remains highly endemic with specific hotspots intensifying due to persistent humidity.
+The projection for 2041–2060 reveals distinct ecological shifts rather than a universal increase:
+* **Amazon Recovery:** Surprisingly, parts of the Amazon show a **decline** in incidence. The model attributes this to **thermal stress**, where rising temperatures (>30°C) exceed the physiological survival limit of the sandfly vector (desiccation of larvae).
+* **Coastal Stability:** The coastal belt remains relatively stable. The model suggests that strong **ocean winds**, the cooling effect of the sea, and high degrees of **surface sealing (concrete/urbanization)** act as natural barriers against vector proliferation.
+
+### 3. Explainable AI & Actionable Insights
+Using SHAP values, we move beyond simple prediction to specific prevention strategies:
+* **Targeted Intervention:** The model identifies *why* a region is at risk.
+* **Example - Rain & Hygiene:** In areas driven by precipitation (`bio_12`), the risk often correlates with waterlogged organic waste. Instead of broad spraying, local authorities can focus on **waste management** and removing wet biomass breeding grounds.
 
 ---
 
