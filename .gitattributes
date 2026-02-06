@@ -1,0 +1,6 @@
+# HTML-Dateien nicht zur Sprachstatistik zählen
+*.html linguist-generated=true
+
+# Falls du CSVs oder JSONs drin hast, die auch raus sollen:
+*.csv linguist-generated=true
+*.json linguist-generated=true
