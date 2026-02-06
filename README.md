@@ -1,6 +1,6 @@
 # Modeling Cutaneous Leishmaniasis: Climate Change & Epidemiology (Brazil)
 
-![Dashboard Preview](results/dashboard_preview.jpg)
+![Dashboard Preview](results/dashboard_preview.png)
 
 ## Project Overview
 This project establishes an "End-to-End" pipeline to model the impact of climate change (Scenario **SSP3-7.0**) on the incidence of Cutaneous Leishmaniasis in Brazil. By fusing epidemiological data, demographic statistics, and bioclimatic variables, we predict risk shifts for the period **2041–2060**.
